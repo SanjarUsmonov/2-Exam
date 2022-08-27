@@ -10,6 +10,7 @@
     --black:#0E0E0E;
     --yellow:#D87D4A;
     --grey:#F1F1F1;
+    --light-yellow:#FBAF85;
 }
 .container{
     max-width: 1300px;
@@ -120,8 +121,8 @@ nav i{
     text-decoration: none;
 }
 .content a:hover{
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--light-yellow);
+    color: var(--white);
 }
 .service{
     width: 1300px;

@@ -10,17 +10,14 @@
     --black:#0E0E0E;
     --yellow:#D87D4A;
     --grey:#F1F1F1;
+    --light-yellow:#FBAF85;
 }
 .container{
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
 }
-.hero{
-    width: 1519px;
-    margin: 0 auto;
-    background: var(--black);
-}
+
 nav{
     width: 100%;
     position: fixed;
@@ -64,7 +61,7 @@ nav i{
 main{
     width: 1519.5px;
     margin-left: -110px;
-    background: url(img/Bitmap.png);
+    background: url(img/Bitmap1.png);
     background-repeat: no-repeat;
     background-size: 1519px 665px;
     background-position: bottom;
@@ -115,8 +112,8 @@ main{
     text-decoration: none;
 }
 .content a:hover{
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--light-yellow);
+    color: var(--white);
 }
 .service{
     width: 1300px;
@@ -185,7 +182,12 @@ main{
 }
 .banner a{
     background: var(--black);
-    border: none;   
+    border: 1px solid #000;  
+}
+.banner a:hover{
+    background: var(--white);
+    border:1px solid #000;
+    color: #000;
 }
 .speaker{
     width: 1300px;
@@ -314,10 +316,14 @@ strong{
     border-radius: 8px;
 }
 footer{
+    width: 100%;
     margin-left: -110px;
 }
 .foot{
     width: 1519px;
+    position: absolute;
+    left: 0;
+    right: 0;
     margin: 0 auto;
     background-color: var(--black);
     height: 370px;
