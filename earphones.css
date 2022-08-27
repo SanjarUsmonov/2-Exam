@@ -61,19 +61,23 @@ nav img{
 nav i{
     color: var(--white);
 }
-main{
+.sub{
     width: 1519.5px;
     margin-left: -110px;
-    background: url(img/Bitmap.png);
-    background-repeat: no-repeat;
-    background-size: 1519px 665px;
-    background-position: bottom;
+    text-align: center;
+    padding: 90px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 2px;
+    background-color: #131313;
+    margin-top: 70px;
 }
 .main{
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
-    margin-top: 88px;
-    color: var(--white);
+    margin-top: 80px;
+    color: var(--black);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,8 +89,9 @@ main{
 }
 .content span{
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 10px;
+    color: var(--yellow);
 }
 .content h1{
     margin: 24px 0;
@@ -97,7 +102,7 @@ main{
     text-transform: uppercase;
 }
 .content p{
-    width: 370px;
+    width: 430px;
     font-size: 15px;
     font-weight: 500;
     line-height: 25px;
@@ -166,123 +171,6 @@ main{
 }
 .ramka i{
     color: var(--yellow);
-}
-.banner{
-    width: 1300px;
-    height: 560px;
-    margin: 0 auto;
-    margin-top: 168px;
-    color: var(--white);
-    background-color: var(--yellow);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.5s;
-    border-radius: 8px;
-}
-.banner img{
-    margin-bottom: -66px;
-}
-.banner a{
-    background: var(--black);
-    border: none;   
-}
-.speaker{
-    width: 1300px;
-    height: 320px;
-    margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 8px;
-    background: url(img/main-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-
-}
-.speaker-link{
-    height: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
-}
-.speaker h1{
-    margin-bottom: 32px;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 59px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-.speaker-link a{
-    font-size: 13px;
-    font-weight: 700;
-    width: 160px;
-    height: 50px;
-    background-color:transparent;
-    color: var(--black);
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    transition: 0.5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border: 1px solid #131313;
-}
-.speaker-link a:hover{
-    background-color: var(--black);
-    color: var(--white);
-}
-.ear{
-    width: 1300px;
-    margin: 0 auto;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-.ear img{
-    width: 540px;
-    height: 320px;
-    border-radius: 8px;
-}
-.ear-link{
-    width: 540px;
-    height: 320px;
-    background-color: var(--grey);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 120px;
-}
-.ear h1{
-    margin-bottom: 32px;
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 59px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-.ear-link a{
-    font-size: 13px;
-    font-weight: 700;
-    width: 160px;
-    height: 50px;
-    background-color:transparent;
-    color: var(--black);
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    transition: 0.5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border: 1px solid #131313;
-}
-.ear-link a:hover{
-    background-color: var(--black);
-    color: var(--white);
 }
 .dj{
     width: 1300px;
@@ -366,26 +254,4 @@ footer{
     margin-top: 56px;
     font-weight: 700;
     font-weight: 15px;
-}
-
-
-
-@media (max-width:375px) {
-    .container{
-        max-width: 375px;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .none{
-        display: none;
-    }
-    nav{
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-    .navbar{
-        max-width: 375px;
-        width: 100%;
-    }
 }
