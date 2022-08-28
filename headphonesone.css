@@ -87,6 +87,13 @@ nav i{
     background-color: #131313;
     margin-top: 70px;
 }
+main{
+    width: 1519px;
+}
+.asosiy-content{
+    width: 1300px;
+    margin: 0 auto;
+}
 .main{
     width: 1100px;
     margin-top: 20px;
@@ -179,11 +186,7 @@ nav i{
     font-weight: 700;
     padding-right: 24px;
 }
-.pictures{
-    width: 1300px;
-}
 .image{
-    border-radius: 8px;
     width: 540px;
     height: 560px;
     background-color: var(--grey);
@@ -191,11 +194,18 @@ nav i{
     justify-content: center;
     align-items: center;
 }
+.pictures{
+    width: 1300px;
+}
+.experts img{
+    border-radius: 8px;
+}
 .img2{
     margin-top: 25px;
 }
 .experts{
-    width: 1300px;
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -209,7 +219,11 @@ nav i{
     margin-top: 100px;
     margin-bottom: 65px;
 }
+.cards{
+    width: 1519px;
+}
 .cards-card{
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -327,7 +341,7 @@ strong{
     margin-top: 170px;
 }
 .foot-bar{
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -336,7 +350,7 @@ strong{
     margin-bottom: 36px;
 }
 .footer{
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -363,7 +377,7 @@ strong{
     color: var(--yellow);
 }
 .end{
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
     color: var(--grey);
     margin-top: 56px;
