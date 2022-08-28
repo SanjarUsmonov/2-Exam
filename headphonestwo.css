@@ -96,16 +96,13 @@ main{
 .main{
     width: 1000px;
     margin-top: 20px;
-
+    margin: 0 auto;
     color: var(--black);
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 657px;
     margin-bottom: 120px;
-}
-.asosiy-content{
-    
 }
 .content{
     width: 400px;
@@ -150,7 +147,8 @@ main{
     color: var(--white);
 }
 .about-us{
-    width: 1300px;
+    width: 1000px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-bottom: 150px;
@@ -830,8 +828,11 @@ strong{
     .desktop{
         display: none;
     }
+    .tablet{
+        display:block;
+    }
     .ortiqcha2{
-        display: block;
+        display: none;
     }
     .mobile{
         display: none;
@@ -1021,7 +1022,7 @@ strong{
         border-radius: 8px;
     }
     .twoimg img{
-        width: 490px;
+        width: 390px;
         height: 200px;
         margin: 0 auto;
         margin-bottom: 30px;
@@ -1040,7 +1041,7 @@ strong{
         margin-top: 25px;
     }
     .pictures{
-        width: 400px;
+        width: 480px;
     }
     .experts{
         width: 400px;
@@ -1109,6 +1110,7 @@ strong{
     }
     .images{
         width: 400px;
+        height: 550px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -1117,8 +1119,8 @@ strong{
     }
     .images img{
         z-index: 10;
-        width: 400px;
-        height: 300px;
+        width: 84px;
+        height: 104px;
     }
     .service-link{
         width: 480px;
