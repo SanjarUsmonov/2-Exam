@@ -12,6 +12,9 @@
     --grey:#F1F1F1;
     --light-yellow:#FBAF85;
 }
+.desktop{
+    display: none;
+}
 .container{
     max-width: 1300px;
     width: 100%;

@@ -17,6 +17,9 @@
     width: 100%;
     margin: 0 auto;
 }
+.desktop{
+    display: none;
+}
 .hero{
     width: 1519px;
     margin: 0 auto;
@@ -90,6 +93,9 @@ nav i{
     background-color: #131313;
     margin-top: 70px;
 }
+main{
+    width: 1519px;
+}
 .main{
     width: 1100px;
     margin: 0 auto;
@@ -144,9 +150,14 @@ nav i{
     color: var(--white);
 }
 .text{
+    width: 1519px;
+}
+.about-us{
+    width: 1300px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 150px;
+    margin: 0 auto;
 }
 .text h2{
     font-size: 32px;
@@ -156,6 +167,7 @@ nav i{
 }
 .words{
     width: 635px;
+    margin-bottom: 100px;
 }
 .words p{
     padding-bottom: 10px;
@@ -165,6 +177,7 @@ nav i{
 }
 .info{
     width: 350px;
+    
 }
 .info p{
     padding-bottom: 10px;
@@ -175,8 +188,12 @@ nav i{
     font-weight: 700;
     padding-right: 24px;
 }
+.pictures{
+    width: 1519px;
+    margin: 0 auto;
+}
 .image{
-    width: 1100px;
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -197,6 +214,11 @@ nav i{
     margin-bottom: 65px;
 }
 .cards{
+    width: 1519px;
+}
+.cards-card{
+    width: 1300px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -231,11 +253,11 @@ h5{
     color: var(--white);
 }
 .service{
-    width: 1100px;
+    width: 1519px;
     margin: 0 auto;
 }
 .images{
-    width: 900px;
+    width: 1050px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -244,17 +266,18 @@ h5{
     z-index: 10;
 }
 .service-link{
-    width: 1100px;
+    width: 1519px;
     margin: 0 auto;
 }
 .ram{
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 .ramka{
     margin-top: -85px;
-    width: 345px;
+    width: 375px;
     height: 210px;
     background-color: var(--grey);
     border-radius: 8px;
@@ -279,8 +302,11 @@ h5{
 .ramka i{
     color: var(--yellow);
 }
+.dj-life{
+    width: 1519px;
+}
 .dj{
-    width: 1100px;
+    width: 1300px;
     margin: 0 auto;
     margin-top: 150px;
     display: flex;
@@ -297,7 +323,7 @@ h5{
     line-height: 48px;
     margin-bottom: 40px;
 }
-.st{
+strong{
     color: var(--yellow);
 }
 .about p{
@@ -308,21 +334,15 @@ h5{
 .dj img{
     border-radius: 8px;
 }
-footer{
-    width: 100%;
-    margin-left: -210px;
-}
 .foot{
-    width: 100%;
-    margin: 0;
-    left: 0;
-    position: absolute;
+    width: 1519px;
+    margin: 0 auto;
     background-color: var(--black);
     height: 370px;
     margin-top: 170px;
 }
 .foot-bar{
-    width: 1100px;
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -331,7 +351,7 @@ footer{
     margin-bottom: 36px;
 }
 .footer{
-    width: 1100px;
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -358,7 +378,7 @@ footer{
     color: var(--yellow);
 }
 .end{
-    width: 1100px;
+    width: 1300px;
     margin: 0 auto;
     color: var(--grey);
     margin-top: 56px;

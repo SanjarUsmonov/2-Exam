@@ -10,7 +10,6 @@
     --black:#0E0E0E;
     --yellow:#D87D4A;
     --grey:#F1F1F1;
-    --light-yellow:#FBAF85;
 }
 .desktop{
     display: none;
@@ -19,6 +18,11 @@
     max-width: 1300px;
     width: 100%;
     margin: 0 auto;
+}
+.hero{
+    width: 1519px;
+    margin: 0 auto;
+    background: var(--black);
 }
 nav{
     width: 100%;
@@ -61,7 +65,7 @@ nav i{
     color: var(--white);
 }
 .sub{
-    width: 1519.5px;
+    width: 1519px;
     text-align: center;
     padding: 90px 0;
     font-size: 40px;
@@ -121,8 +125,8 @@ main{
     text-decoration: none;
 }
 .content a:hover{
-    background-color: var(--light-yellow);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
 }
 .service{
     width: 1519px;
@@ -354,6 +358,10 @@ strong{
         border-radius: 8px;
         margin-bottom: 52px;
     }
+    .image img{
+        width: 202px;
+        height: 243px;
+    }
     .content{
         width: 572px;
         text-align: center;
@@ -395,39 +403,42 @@ strong{
         color: var(--white);
     }
     .service{
-        width: 700px;
+        width: 768px;
         margin: 0 auto;
     }
     .images{
-        width: 600px;
+        width: 580px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .images img{
         z-index: 10;
+        width: 79px;
+        height: 104px;
     }
     .service-link{
-        width: 700px;
+        width: 768px;
         margin: 0 auto;
     }
     .ram{
+        width: 720px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .ramka{
-        margin-top: -85px;
-        width: 345px;
-        height: 210px;
+        margin-top: -45px;
+        width: 223px;
+        height: 165px;
         background-color: var(--grey);
         border-radius: 8px;
         text-align: center;
-        padding-top: 120px;
+        padding-top: 70px;
     }
     .ramka h4{
         margin-bottom: 15px;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 700;
         letter-spacing: 1.5px;
     }
@@ -436,23 +447,33 @@ strong{
         text-decoration: none;
         transition: 0.5s;
         font-weight: 700;
-        font-size: 17px;
+        font-size: 13px;
         text-transform: uppercase;
         padding-right: 5px;
     }
     .ramka i{
         color: var(--yellow);
     }
+    .dj-life{
+        width: 768px;
+    }
     .dj{
-        width: 700px;
+        width: 720px;
         margin: 0 auto;
         margin-top: 150px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: column-reverse;
+    }
+    .dj img{
+        width: 689px;
+        height: 300px;
     }
     .about{
-        width: 450px;
+        margin-top: 50px;
+        width:573px;
+        text-align: center;
     }
     .about h1{
         font-size: 40px;
@@ -461,7 +482,7 @@ strong{
         line-height: 48px;
         margin-bottom: 40px;
     }
-    .st{
+    strong{
         color: var(--yellow);
     }
     .about p{
@@ -472,25 +493,19 @@ strong{
     .dj img{
         border-radius: 8px;
     }
-    footer{
-        width: 100%;
-        margin-left: -210px;
-    }
     .foot{
-        width: 100%;
-        margin: 0;
-        left: 0;
-        position: absolute;
+        width: 768px;
+        margin: 0 auto;
         background-color: var(--black);
-        height: 370px;
+        height: 400px;
         margin-top: 170px;
     }
     .foot-bar{
         width: 700px;
         margin: 0 auto;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
+        flex-direction: column;
         padding-top: 30px;
         margin-bottom: 36px;
     }
@@ -528,5 +543,8 @@ strong{
         margin-top: 56px;
         font-weight: 700;
         font-weight: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
