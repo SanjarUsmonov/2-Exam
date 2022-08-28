@@ -715,7 +715,7 @@ strong{
     }
     .images{
         width: 400px;
-        height: 550px;
+        height: 650px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -733,7 +733,7 @@ strong{
     }
     .ram{
         width: 400px;
-        height: 550px;
+        height: 120px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -741,9 +741,8 @@ strong{
         justify-content: space-between;
     }
     .ramka{
-        margin-top: -555px;
+        margin-top: -600px;
         width: 223px;
-        height: 50px;
         height: 165px;
         background-color: var(--grey);
         border-radius: 8px;
@@ -781,12 +780,12 @@ strong{
         flex-direction: column-reverse;
     }
     .dj img{
-        width: 480px;
+        width: 400px;
         height: 300px;
     }
     .about{
         margin-top: 50px;
-        width:473px;
+        width:423px;
         text-align: center;
     }
     .about h1{
@@ -811,14 +810,14 @@ strong{
         width: 480px;
         margin: 0 auto;
         background-color: var(--black);
-        height: 400px;
+        height: 480px;
         margin-top: 170px;
     }
     .foot-bar{
         width: 400px;
         margin: 0 auto;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
         padding-top: 30px;
         margin-bottom: 36px;
@@ -827,7 +826,8 @@ strong{
         width: 400px;
         margin: 0 auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
         align-items: center;
         color: var(--grey);
     }
@@ -836,6 +836,7 @@ strong{
         font-size: 15px;
         font-weight: 500;
         line-height: 25px;
+        text-align: center;
     }
     .icons{
         width: 130px;
@@ -853,6 +854,7 @@ strong{
     .end{
         width: 400px;
         margin: 0 auto;
+        height: 100px;
         color: var(--grey);
         margin-top: 56px;
         font-weight: 700;
@@ -860,5 +862,6 @@ strong{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        flex-direction: column;
     }
 }
