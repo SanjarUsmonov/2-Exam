@@ -435,15 +435,8 @@ footer{
         color: var(--white);
         padding: 32px 0;
     }
-    main{
-        height: 1060px;
-        background: url(img/bg-mobile.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
     .main{
-        width: 400px;
+        width: 700px;
         height: 1060px;
         margin: 0 auto;
         margin-top: 70px;
@@ -451,8 +444,12 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        height: 657px;
         margin-bottom: 120px;
+        height: 1060px;
+        background: url(img/bg-mobil.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     .content{
         width: 400px;
