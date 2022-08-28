@@ -141,6 +141,19 @@ main{
 .images img{
     z-index: 10;
 }
+.image{
+    width: 540px;
+    height: 560px;
+    background-color: var(--grey);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .service-link{
     width: 1519px;
     margin: 0 auto;
@@ -359,8 +372,8 @@ strong{
         margin-bottom: 52px;
     }
     .image img{
-        width: 202px;
-        height: 243px;
+        width: 280px;
+        height: 300px;
     }
     .content{
         width: 572px;

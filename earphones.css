@@ -142,6 +142,15 @@ main{
 .images img{
     z-index: 10;
 }
+.image{
+    width: 540px;
+    height: 560px;
+    background-color: var(--grey);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .service-link{
     width: 1519px;
     margin: 0 auto;

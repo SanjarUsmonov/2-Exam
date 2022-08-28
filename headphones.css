@@ -89,6 +89,19 @@ main{
     height: 657px;
     margin-bottom: 120px;
 }
+.image{
+    width: 540px;
+    height: 560px;
+    background-color: var(--grey);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
 .content{
     width: 400px;
 }

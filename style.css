@@ -20,6 +20,7 @@
 header{
     width: 1519px;
     margin: 0 auto;
+    background-color: #131313;
 }
 nav{
     width: 100%;
@@ -62,11 +63,10 @@ nav i{
     color: var(--white);
 }
 main{
-    width: 100%;
     background: url(img/Bitmap1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+    background-position-x: 100%;
+    background-position-y: 100%;
 }
 .main{
     width: 1300px;
@@ -192,9 +192,9 @@ main{
     border: 1px solid #000;  
 }
 .banner a:hover{
-    background: var(--white);
+    background: #333;
     border:1px solid #000;
-    color: #000;
+    color: var(--white);
 }
 .speak-page{
     width: 1519px;
@@ -394,8 +394,11 @@ footer{
     .tablet{
         display: none;
     }
+    header{
+        width: 768px;
+    }
     nav{
-        width: 100%;
+        width: 768px;
         position: fixed;
         top: 0;
         left: 0;
@@ -403,7 +406,7 @@ footer{
         background: #131313;
     }
     .navbar{
-        width: 768px;
+        width: 700px;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -435,25 +438,20 @@ footer{
         color: var(--white);
         padding: 32px 0;
     }
-    .main{
-        width: 700px;
-        height: 1060px;
-        margin: 0 auto;
-        margin-top: 70px;
-        color: var(--white);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 120px;
-        height: 1060px;
-        background: url(img/bg-mobil.png);
+    main{
+        width: 768px;
+        background: url(img/Bitmap1.png);
         background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+        background-position-x: 85%;
+        background-position-y: 120%;
+    }
+    .main{
+        width: 768px;
     }
     .content{
-        width: 400px;
+        /* width: 400px; */
         text-align: center;
+        margin: auto;
     }
     .content span{
         font-size: 14px;
@@ -495,32 +493,34 @@ footer{
         margin: 0 auto;
     }
     .images{
-        width: 768px;
+        width: 580px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .images img{
         z-index: 10;
+        width: 79px;
+        height: 104px;
     }
     .service-link{
         width: 768px;
         margin: 0 auto;
     }
     .ram{
-        width: 768px;
+        width: 720px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .ramka{
-        margin-top: -85px;
-        width: 375px;
-        height: 210px;
+        margin-top: -45px;
+        width: 223px;
+        height: 165px;
         background-color: var(--grey);
         border-radius: 8px;
         text-align: center;
-        padding-top: 120px;
+        padding-top: 70px;
     }
     .ramka h4{
         margin-bottom: 15px;
@@ -540,42 +540,48 @@ footer{
     .ramka i{
         color: var(--yellow);
     }
-    .banner{
+    .banner__content{
         width: 768px;
-        height: 560px;
-        margin: 0 auto;
+    }
+    .banner{
+        width: 700px;
+        height: 900px;
         margin-top: 168px;
         color: var(--white);
         background-color: var(--yellow);
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
+        flex-direction: column;
         transition: 0.5s;
         border-radius: 8px;
     }
     .banner img{
-        margin-bottom: -66px;
+        width: 300px;
+        height: 400px;
     }
     .banner a{
         background: var(--black);
         border: 1px solid #000;  
     }
     .banner a:hover{
-        background: var(--white);
+        background: #333;
         border:1px solid #000;
         color: #000;
     }
-    .speaker{
+    .speak-page{
         width: 768px;
-        height: 320px;
+    }
+    .speaker{
+        width: 700px;
+        height: 380px;
         margin: 0 auto;
         margin-top: 50px;
         border-radius: 8px;
-        background: url(img/main-bg.png);
+        background: url(img/bg-mobile-bg.jpg);
         background-repeat: no-repeat;
         background-position: right;
         background-size: cover;
-    
     }
     .speaker-link{
         height: 320px;
@@ -613,19 +619,18 @@ footer{
         color: var(--white);
     }
     .ear{
-        width: 768px;
-        margin: 0 auto;
+        width: 700px;
         margin-top: 50px;
         display: flex;
         justify-content: space-between;
     }
     .ear img{
-        width: 540px;
+        width: 339px;
         height: 320px;
         border-radius: 8px;
     }
     .ear-link{
-        width: 540px;
+        width: 339px;
         height: 320px;
         background-color: var(--grey);
         border-radius: 8px;
@@ -662,6 +667,9 @@ footer{
         background-color: var(--black);
         color: var(--white);
     }
+    .dj-life{
+        width: 768px;
+    }
     .dj{
         width: 768px;
         margin: 0 auto;
@@ -669,9 +677,12 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: column-reverse;
     }
     .about{
+        margin-top: 50px;
         width: 450px;
+        text-align: center;
     }
     .about h1{
         font-size: 40px;
@@ -702,7 +713,7 @@ footer{
         margin-top: 170px;
     }
     .foot-bar{
-        width: 768px;
+        width: 700px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -711,7 +722,7 @@ footer{
         margin-bottom: 36px;
     }
     .footer{
-        width: 768px;
+        width: 700px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -738,11 +749,14 @@ footer{
         color: var(--yellow);
     }
     .end{
-        width: 768px;
+        width: 700px;
         margin: 0 auto;
         color: var(--grey);
         margin-top: 56px;
         font-weight: 700;
         font-weight: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
