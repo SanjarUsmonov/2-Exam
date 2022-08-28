@@ -88,11 +88,7 @@ nav i{
     margin-top: 70px;
 }
 main{
-    width: 1519px;
-}
-.asosiy-content{
     width: 1300px;
-    margin: 0 auto;
 }
 .main{
     width: 1100px;
@@ -146,10 +142,6 @@ main{
     background-color: var(--light-yellow);
     color: var(--white);
 }
-.text{
-    width: 1200px;
-    margin: 0 auto;
-}
 .about-us{
     width: 1300px;
     display: flex;
@@ -193,9 +185,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.pictures{
-    width: 1300px;
+    border-radius: 8px;
 }
 .experts img{
     border-radius: 8px;
@@ -218,9 +208,6 @@ main{
     text-transform: uppercase;
     margin-top: 100px;
     margin-bottom: 65px;
-}
-.cards{
-    width: 1519px;
 }
 .cards-card{
     width: 1200px;
@@ -334,8 +321,6 @@ strong{
     border-radius: 8px;
 }
 .foot{
-    width: 1519px;
-    margin: 0 auto;
     background-color: var(--black);
     height: 370px;
     margin-top: 170px;
@@ -466,8 +451,7 @@ strong{
         color: var(--white);
     }
     .sub{
-        width: 768px;
-        margin-left: -110px;
+        width: 700px;
         text-align: center;
         padding: 90px 0;
         font-size: 40px;
@@ -478,11 +462,10 @@ strong{
         margin-top: 70px;
     }
     main{
-        width: 768px;
+        width: 700px;
     }
     .main{
         width: 700px;
-        margin: 0 auto;
         margin-top: 20px;
         color: var(--black);
         display: flex;
@@ -492,7 +475,7 @@ strong{
         margin-bottom: 120px;
     }
     .content{
-        width: 400px;
+        width: 339px;
     }
     .content span{
         font-size: 14px;
@@ -502,7 +485,7 @@ strong{
     }
     .content h1{
         margin: 24px 0;
-        font-size: 56px;
+        font-size: 46px;
         font-weight: 700;
         line-height: 59px;
         letter-spacing: 3px;
@@ -512,7 +495,7 @@ strong{
         margin-bottom: 50px;
     }
     .content p{
-        width: 430px;
+        width: 340px;
         font-size: 15px;
         font-weight: 500;
         line-height: 25px;
@@ -533,14 +516,12 @@ strong{
         background-color: var(--light-yellow);
         color: var(--white);
     }
-    .text{
-        width: 768px;
-    }
     .about-us{
         width: 700px;
         display: flex;
         justify-content: space-between;
         margin-bottom: 150px;
+        flex-direction: column;
         margin: 0 auto;
     }
     .text h2{
@@ -560,8 +541,10 @@ strong{
         line-height: 25px;
     }
     .info{
-        width: 350px;
-        
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
     }
     .info p{
         padding-bottom: 10px;
@@ -572,22 +555,35 @@ strong{
         font-weight: 700;
         padding-right: 24px;
     }
-    .pictures{
-        width: 700px;
-        margin: 0 auto;
-    }
     .image{
-        width: 700px;
-        margin: 0 auto;
+        width: 281px;
+        height: 480px;
+        background-color: var(--grey);
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
     }
-    .image img{
+    .twoimg img{
+        width: 277px;
+        height: 174px;
+    }
+    .big-img img{
+        width: 395px;
+        height: 378px;
+    }
+    .experts img{
         border-radius: 8px;
     }
     .img2{
         margin-top: 25px;
+    }
+    .experts{
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .center{
         text-align: center;
@@ -598,16 +594,12 @@ strong{
         margin-top: 100px;
         margin-bottom: 65px;
     }
-    .cards{
-        width: 768px;
-    }
     .cards-card{
-        width: 700px;
+        width:700px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: column;
         margin-bottom: 150px;
     }
     .card{
@@ -622,6 +614,8 @@ strong{
     }
     .card img{
         border-radius: 8px;
+        height: 80%;
+        width: 90%;
     }
     .card a{
         font-size: 13px;
@@ -639,36 +633,35 @@ strong{
         color: var(--white);
     }
     .service{
-        width: 768px;
         margin: 0 auto;
     }
     .images{
-        width: 700px;
+        width: 600px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .images img{
         z-index: 10;
+        width: 84px;
+        height: 104px;
     }
     .service-link{
-        width: 768px;
         margin: 0 auto;
     }
     .ram{
-        width: 700px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .ramka{
-        margin-top: -85px;
-        width: 375px;
-        height: 210px;
+        margin-top: -55px;
+        width: 223px;
+        height: 165px;
         background-color: var(--grey);
         border-radius: 8px;
         text-align: center;
-        padding-top: 120px;
+        padding-top: 80px;
     }
     .ramka h4{
         margin-bottom: 15px;
@@ -688,19 +681,18 @@ strong{
     .ramka i{
         color: var(--yellow);
     }
-    .dj-life{
-        width: 768px;
-    }
     .dj{
-        width: 700px;
         margin: 0 auto;
         margin-top: 150px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+        flex-direction: column-reverse;
     }
     .about{
         width: 450px;
+        text-align: center;
+        margin-top: 70px;
     }
     .about h1{
         font-size: 40px;
@@ -721,8 +713,6 @@ strong{
         border-radius: 8px;
     }
     .foot{
-        width: 768px;
-        margin: 0 auto;
         background-color: var(--black);
         height: 370px;
         margin-top: 170px;
@@ -770,5 +760,11 @@ strong{
         margin-top: 56px;
         font-weight: 700;
         font-weight: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .important{
+        display: block;
     }
 }
