@@ -1,4 +1,6 @@
-
+:root{
+    --black:#131313;
+}
 *{
     margin: 0;
     padding: 0;
@@ -475,127 +477,71 @@ header{
     }
 
 
-footer{
-        background-color: #000000;
+    footer{
+        width: 100%;
+        margin-left: -110px;
     }
-    footer .menu{
+    .foot{
+        width: 1300px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: var(--black);
+        height: 370px;
+        margin-top: 170px;
+        color: #fff;
+    }
+    .foot-bar{
+        width: 1100px;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        padding-top: 75px;
+        align-items: center;
+        padding-top: 30px;
         margin-bottom: 36px;
     }
-    footer .menu ul{
-        display: flex;
-    }
-    footer .menu ul a{
-        margin-right: 25px;
-        color: #FFFFFF;
-        transition: 0.5s;
-    }
-    footer .menu ul a:hover{
-        color: #D87D4A;
-    }
-    footer .menu ul a li{
-    
-        font-weight: 700;
-        font-size: 13px;
-        line-height: 25px;
-        letter-spacing: 2px;
-    
-    }
-    footer .center{
-        width: 100%;
+    .footer{
+        width: 1100px;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 50px;
+        align-items: center;
+        color: var(--grey);
     }
-    footer .center p{
+    .footer p{
         width: 540px;
+        font-size: 15px;
         font-weight: 500;
-        font-size: 15px;
         line-height: 25px;
-        color: #414141;
     }
-    footer .center i{
-        color: #FFFFFF;
-        margin-right: 16px;
-        font-size: 25px;
-        cursor: pointer;
+    .icons{
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons a{
+        color: var(--white);
+        font-size: 32px;
         transition: 0.5s;
     }
-    footer .center i:hover{
-        color: #D87D4A;
+    .icons a:hover{
+        color: var(--yellow);
     }
-    footer .center .right{
-        margin-top: 50px;
-        margin-right: 20px;
-    }
-    footer .bot a{
+    .end{
+        width: 1100px;
+        margin: 0 auto;
+        color: var(--grey);
+        margin-top: 56px;
         font-weight: 700;
-        font-size: 15px;
-        line-height: 25px;
-        color: #414141;
-        margin-bottom: 48px;
-        transition: 0.5s;
+        font-weight: 15px;
     }
-    footer .bot a:hover{
-        color: #FFFFFF;
-    }
-    footer .bot .right{
-        display: none;
-    }
-    footer{
-        padding-bottom: 48px;
-    }
-    .Bitmapaudiomobile{
+    .desktop{
         display: none;
     }
 
 
-
-    /* -------------------------------------- */
-
-
-
-@media (max-width: 1274px) {
-        .input-text{
-            width: 260px;
-        }
-        .input-email{
-            width: 260px;
-        }
-        .input-num{
-            width: 260px;
-        }
-        .input-adres{
-            width: 260px;
-        }
-        .input-code{
-            width: 260px;
-        }
-        .input-loc{
-            width: 260px;
-        }
-        .input-country{
-            width: 260px;
-        }
-        .label-money{
-            width: 260px;
-        }
-        .label-cash{
-            width: 260px;
-        }
-        .marka h2{
-            width: 50%;
-        }
-        .imgmk{
-            margin-right: 40px;
-        }
-
-    }
-
-
-    @media (max-width: 1155px) {
+    @media (max-width: 1300px) {
         .check .right .top{
             display: flex;
             flex-direction: column;
@@ -666,34 +612,13 @@ footer{
             margin: 0 auto;
         }
 
-        .check .right .text1{
+        .check .right .text{
             display: flex;
             flex-direction: column;
             align-items: center;
             margin: auto;
         }
-        .check .right .text2{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: auto;
-        }
-        .check .right .text3{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: auto;
-        }
-        .check .right .text4{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: auto;
-        }
-
-
-
-        .check .right{
+  .check .right{
             height: 850px;
         }
 
