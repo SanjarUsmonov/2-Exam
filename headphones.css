@@ -12,6 +12,9 @@
     --grey:#F1F1F1;
     --light-yellow:#FBAF85;
 }
+.desktop{
+    display: none;
+}
 .container{
     max-width: 1300px;
     width: 100%;
@@ -274,10 +277,14 @@ strong{
     nav{
         width: 100%;
         position: fixed;
+        height: 090px;
         top: 0;
         left: 0;
         z-index: 100;
         background: #131313;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .navbar{
         width: 700px;
@@ -388,42 +395,39 @@ strong{
         color: var(--white);
     }
     .service{
-        width: 768px;
+        width: 700px;
         margin: 0 auto;
     }
     .images{
-        width: 580px;
+        width: 600px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .images img{
         z-index: 10;
-        width: 79px;
-        height: 104px;
     }
     .service-link{
-        width: 768px;
+        width: 700px;
         margin: 0 auto;
     }
     .ram{
-        width: 720px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
     }
     .ramka{
-        margin-top: -45px;
-        width: 223px;
-        height: 165px;
+        margin-top: -85px;
+        width: 345px;
+        height: 210px;
         background-color: var(--grey);
         border-radius: 8px;
         text-align: center;
-        padding-top: 70px;
+        padding-top: 120px;
     }
     .ramka h4{
         margin-bottom: 15px;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 700;
         letter-spacing: 1.5px;
     }
@@ -432,33 +436,23 @@ strong{
         text-decoration: none;
         transition: 0.5s;
         font-weight: 700;
-        font-size: 13px;
+        font-size: 17px;
         text-transform: uppercase;
         padding-right: 5px;
     }
     .ramka i{
         color: var(--yellow);
     }
-    .dj-life{
-        width: 768px;
-    }
     .dj{
-        width: 720px;
+        width: 700px;
         margin: 0 auto;
         margin-top: 150px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: column-reverse;
-    }
-    .dj img{
-        width: 689px;
-        height: 300px;
     }
     .about{
-        margin-top: 50px;
-        width:573px;
-        text-align: center;
+        width: 450px;
     }
     .about h1{
         font-size: 40px;
@@ -467,7 +461,7 @@ strong{
         line-height: 48px;
         margin-bottom: 40px;
     }
-    strong{
+    .st{
         color: var(--yellow);
     }
     .about p{
@@ -478,19 +472,25 @@ strong{
     .dj img{
         border-radius: 8px;
     }
+    footer{
+        width: 100%;
+        margin-left: -210px;
+    }
     .foot{
-        width: 768px;
-        margin: 0 auto;
+        width: 100%;
+        margin: 0;
+        left: 0;
+        position: absolute;
         background-color: var(--black);
-        height: 400px;
+        height: 370px;
         margin-top: 170px;
     }
     .foot-bar{
         width: 700px;
         margin: 0 auto;
         display: flex;
-        align-items: flex-start;
-        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         padding-top: 30px;
         margin-bottom: 36px;
     }
@@ -528,8 +528,5 @@ strong{
         margin-top: 56px;
         font-weight: 700;
         font-weight: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
     }
 }
