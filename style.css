@@ -17,7 +17,10 @@
     width: 100%;
     margin: 0 auto;
 }
-
+header{
+    width: 1519px;
+    margin: 0 auto;
+}
 nav{
     width: 100%;
     position: fixed;
@@ -59,11 +62,10 @@ nav i{
     color: var(--white);
 }
 main{
-    width: 1519.5px;
-    margin-left: -110px;
+    width: 100%;
     background: url(img/Bitmap1.png);
     background-repeat: no-repeat;
-    background-size: 1519px 665px;
+    background-size: cover;
     background-position: bottom;
 }
 .main{
@@ -116,7 +118,7 @@ main{
     color: var(--white);
 }
 .service{
-    width: 1300px;
+    width: 1519px;
     margin: 0 auto;
 }
 .images{
@@ -129,10 +131,11 @@ main{
     z-index: 10;
 }
 .service-link{
-    width: 1300px;
+    width: 1519px;
     margin: 0 auto;
 }
 .ram{
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -164,6 +167,10 @@ main{
 .ramka i{
     color: var(--yellow);
 }
+.banner__content{
+    width: 1519px;
+    margin: 0 auto;
+}
 .banner{
     width: 1300px;
     height: 560px;
@@ -189,6 +196,10 @@ main{
     border:1px solid #000;
     color: #000;
 }
+.speak-page{
+    width: 1519px;
+    margin: 0 auto;
+}
 .speaker{
     width: 1300px;
     height: 320px;
@@ -199,7 +210,6 @@ main{
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
-
 }
 .speaker-link{
     height: 320px;
@@ -285,6 +295,10 @@ main{
 .ear-link a:hover{
     background-color: var(--black);
     color: var(--white);
+}
+.dj-life{
+    width: 1519px;
+    margin: 0 auto;
 }
 .dj{
     width: 1300px;
@@ -376,22 +390,362 @@ footer{
 
 
 
-@media (max-width:375px) {
-    .container{
-        max-width: 375px;
-        width: 100%;
-        margin: 0 auto;
-    }
-    .none{
+@media (min-width:376px) and (max-width:768px) {
+    .tablet{
         display: none;
     }
     nav{
+        width: 100%;
         position: fixed;
         top: 0;
-        width: 100%;
+        left: 0;
+        z-index: 100;
+        background: #131313;
     }
     .navbar{
-        max-width: 375px;
-        width: 100%;
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav img{
+        width: 143px;
+        height: 25px;
+    }
+    .links{
+        width: 450px;
+        display: flex;
+        justify-content: space-between;
+        padding: 35px 0;
+    }
+    .link{
+        color: var(--white);
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        transition: 0.5s;
+    }
+    .link:hover{
+        color: bisque;
+        text-decoration: underline bisque;
+    }
+    nav i{
+        color: var(--white);
+        padding: 32px 0;
+    }
+    main{
+        height: 1060px;
+        background: url(img/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .main{
+        width: 400px;
+        height: 1060px;
+        margin: 0 auto;
+        margin-top: 70px;
+        color: var(--white);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 657px;
+        margin-bottom: 120px;
+    }
+    .content{
+        width: 400px;
+        text-align: center;
+    }
+    .content span{
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 10px;
+    }
+    .content h1{
+        margin: 24px 0;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    .content p{
+        width: 370px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        margin-bottom: 40px;
+    }
+    .content a{
+        font-size: 13px;
+        font-weight: 700;
+        padding: 15px 31px;
+        background-color: var(--yellow);
+        color: var(--white);
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+    .content a:hover{
+        background-color: var(--light-yellow);
+        color: var(--white);
+    }
+    .service{
+        width: 768px;
+        margin: 0 auto;
+    }
+    .images{
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .images img{
+        z-index: 10;
+    }
+    .service-link{
+        width: 768px;
+        margin: 0 auto;
+    }
+    .ram{
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ramka{
+        margin-top: -85px;
+        width: 375px;
+        height: 210px;
+        background-color: var(--grey);
+        border-radius: 8px;
+        text-align: center;
+        padding-top: 120px;
+    }
+    .ramka h4{
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+    }
+    .ramka a{
+        color: #787878;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: 700;
+        font-size: 17px;
+        text-transform: uppercase;
+        padding-right: 5px;
+    }
+    .ramka i{
+        color: var(--yellow);
+    }
+    .banner{
+        width: 768px;
+        height: 560px;
+        margin: 0 auto;
+        margin-top: 168px;
+        color: var(--white);
+        background-color: var(--yellow);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.5s;
+        border-radius: 8px;
+    }
+    .banner img{
+        margin-bottom: -66px;
+    }
+    .banner a{
+        background: var(--black);
+        border: 1px solid #000;  
+    }
+    .banner a:hover{
+        background: var(--white);
+        border:1px solid #000;
+        color: #000;
+    }
+    .speaker{
+        width: 768px;
+        height: 320px;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 8px;
+        background: url(img/main-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+    
+    }
+    .speaker-link{
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    .speaker h1{
+        margin-bottom: 32px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    .speaker-link a{
+        font-size: 13px;
+        font-weight: 700;
+        width: 160px;
+        height: 50px;
+        background-color:transparent;
+        color: var(--black);
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border: 1px solid #131313;
+    }
+    .speaker-link a:hover{
+        background-color: var(--black);
+        color: var(--white);
+    }
+    .ear{
+        width: 768px;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .ear img{
+        width: 540px;
+        height: 320px;
+        border-radius: 8px;
+    }
+    .ear-link{
+        width: 540px;
+        height: 320px;
+        background-color: var(--grey);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 120px;
+    }
+    .ear h1{
+        margin-bottom: 32px;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    .ear-link a{
+        font-size: 13px;
+        font-weight: 700;
+        width: 160px;
+        height: 50px;
+        background-color:transparent;
+        color: var(--black);
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        transition: 0.5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border: 1px solid #131313;
+    }
+    .ear-link a:hover{
+        background-color: var(--black);
+        color: var(--white);
+    }
+    .dj{
+        width: 768px;
+        margin: 0 auto;
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about{
+        width: 450px;
+    }
+    .about h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 48px;
+        margin-bottom: 40px;
+    }
+    strong{
+        color: var(--yellow);
+    }
+    .about p{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .dj img{
+        border-radius: 8px;
+    }
+    .foot{
+        width: 768px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background-color: var(--black);
+        height: 370px;
+        margin-top: 170px;
+    }
+    .foot-bar{
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 30px;
+        margin-bottom: 36px;
+    }
+    .footer{
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--grey);
+    }
+    .footer p{
+        width: 540px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .icons{
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons a{
+        color: var(--white);
+        font-size: 32px;
+        transition: 0.5s;
+    }
+    .icons a:hover{
+        color: var(--yellow);
+    }
+    .end{
+        width: 768px;
+        margin: 0 auto;
+        color: var(--grey);
+        margin-top: 56px;
+        font-weight: 700;
+        font-weight: 15px;
     }
 }

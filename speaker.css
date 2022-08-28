@@ -62,8 +62,7 @@ nav i{
     color: var(--white);
 }
 .sub{
-    width: 1519.5px;
-    margin-left: -110px;
+    width: 1519px;
     text-align: center;
     padding: 90px 0;
     font-size: 40px;
@@ -72,6 +71,9 @@ nav i{
     letter-spacing: 2px;
     background-color: #131313;
     margin-top: 70px;
+}
+main{
+    width: 1519px;
 }
 .main{
     width: 1200px;
@@ -124,7 +126,7 @@ nav i{
     color: var(--black);
 }
 .service{
-    width: 1300px;
+    width: 1519px;
     margin: 0 auto;
 }
 .images{
@@ -137,10 +139,11 @@ nav i{
     z-index: 10;
 }
 .service-link{
-    width: 1300px;
+    width: 1519px;
     margin: 0 auto;
 }
 .ram{
+    width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -172,6 +175,9 @@ nav i{
 .ramka i{
     color: var(--yellow);
 }
+.dj-life{
+    width: 1519px;
+}
 .dj{
     width: 1300px;
     margin: 0 auto;
@@ -200,9 +206,6 @@ strong{
 }
 .dj img{
     border-radius: 8px;
-}
-footer{
-    margin-left: -110px;
 }
 .foot{
     width: 1519px;
