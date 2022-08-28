@@ -30,7 +30,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
+    z-index: 50;
     background: #131313;
 }
 .navbar{
@@ -68,7 +68,7 @@ nav i{
 main{
     background: url(img/Bitmap1.png);
     background-repeat: no-repeat;
-    background-position-x: 100%;
+    background-position-x: 70%;
     background-position-y: 100%;
 }
 .main{
@@ -166,6 +166,10 @@ main{
     font-size: 17px;
     text-transform: uppercase;
     padding-right: 5px;
+    transition: 0.5s;
+}
+.ramka a:hover{
+    color: var(--yellow);
 }
 .ramka i{
     color: var(--yellow);
@@ -393,6 +397,20 @@ footer{
 
 
 
+
+
+
+/* ---------------------Start media------------------- */
+
+
+
+
+
+
+
+
+
+
 @media (min-width:481px) and (max-width:768px) {
     .tablet{
         display: none;
@@ -406,45 +424,24 @@ footer{
     .ortiqcha{
         display: none;
     }
+    .kerakli{
+        display: block;
+    }
     header{
         width: 768px;
     }
     nav{
         width: 768px;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 100;
         background: #131313;
     }
     .navbar{
         width: 700px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    nav img{
-        width: 143px;
-        height: 25px;
     }
     .links{
         width: 450px;
         display: flex;
         justify-content: space-between;
         padding: 35px 0;
-    }
-    .link{
-        color: var(--white);
-        text-decoration: none;
-        font-size: 13px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        transition: 0.5s;
-    }
-    .link:hover{
-        color: bisque;
-        text-decoration: underline bisque;
     }
     nav i{
         color: var(--white);
@@ -470,36 +467,6 @@ footer{
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 10px;
-    }
-    .content h1{
-        margin: 24px 0;
-        font-size: 56px;
-        font-weight: 700;
-        line-height: 59px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-    }
-    .content p{
-        width: 370px;
-        font-size: 15px;
-        font-weight: 500;
-        line-height: 25px;
-        margin-bottom: 40px;
-    }
-    .content a{
-        font-size: 13px;
-        font-weight: 700;
-        padding: 15px 31px;
-        background-color: var(--yellow);
-        color: var(--white);
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        transition: 0.5s;
-        text-decoration: none;
-    }
-    .content a:hover{
-        background-color: var(--light-yellow);
-        color: var(--white);
     }
     .service{
         width: 768px;
@@ -772,6 +739,61 @@ footer{
         justify-content: space-between;
         align-items: center;
     }
+    input {
+        display: none;
+      }
+      .div-nav {
+        right: 0;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: var(--black);
+        top: 0;
+        right: -100%;
+        transition: 0.5s;
+      }
+      .menu-bar{
+        width: 837px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+        margin-left: 163px;
+        padding-left: 120px;
+        background-color: var(--black-dark);
+        overflow: auto;
+      }
+      #burger:checked ~ .div-nav {
+        right: 0;
+      }
+      .nav-burger img{
+        margin-left: 40px;
+      }
+      .fa-bars{
+        font-size: 38px;
+        color: var(--white);
+      }
+      .nav-burger-into{
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 38px;
+      }
+      .link-into-menu a{
+        width: 565px;
+        margin: 0 auto;
+        color: var(--white);
+        font-size: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        line-height: 110px;
+        letter-spacing: 5px;
+      }
 }
 
 
@@ -790,6 +812,12 @@ footer{
         width: 480px;
     }
     .mobile{
+        display: none;
+    }
+    .important{
+        display: block;
+    }
+    .ortiqcha2{
         display: none;
     }
     nav{
@@ -1155,4 +1183,60 @@ footer{
         text-align: center;
         margin-top: 40px;
     }
+    input {
+        display: none;
+      }
+      .div-nav {
+        right: 0;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: var(--black);
+        top: 0;
+        right: -100%;
+        transition: 0.5s;
+      }
+      .menu-bar{
+        width: 400px;
+        height: auto;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+        margin-left: 163px;
+        padding-left: 120px;
+        background-color: var(--black-dark);
+        overflow: auto;
+      }
+      #burger:checked ~ .div-nav {
+        right: 0;
+      }
+      .nav-burger img{
+        margin-left: 40px;
+      }
+      .fa-bars{
+        font-size: 30px;
+        margin-left: -190px;
+        color: var(--white);
+      }
+      .nav-burger-into{
+        width: 420px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 24px;
+      }
+      .link-into-menu a{
+        width: 400px;
+        margin: 0 auto;
+        color: var(--white);
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        line-height: 70px;
+        letter-spacing: 5px;
+      }
 }
