@@ -210,6 +210,9 @@ main{
 .img2{
     margin-top: 25px;
 }
+.pictures{
+    width: 1519px;
+}
 .experts{
     width: 1200px;
     margin: 0 auto;
@@ -218,6 +221,7 @@ main{
     align-items: center;
 }
 .center{
+    width: 1519px;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
@@ -225,6 +229,9 @@ main{
     text-transform: uppercase;
     margin-top: 100px;
     margin-bottom: 65px;
+}
+.cards{
+    width: 1519px;
 }
 .cards-card{
     width: 1200px;
@@ -263,7 +270,7 @@ h5{
     color: var(--white);
 }
 .service{
-    width: 1200px;
+    width: 1519px;
     margin: 0 auto;
 }
 .images{
@@ -276,10 +283,11 @@ h5{
     z-index: 10;
 }
 .service-link{
-    width: 1200px;
+    width: 1519px;
     margin: 0 auto;
 }
 .ram{
+    width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -313,6 +321,9 @@ h5{
 }
 .ramka i{
     color: var(--yellow);
+}
+.dj-life{
+    width: 1519px;
 }
 .dj{
     width: 1200px;
@@ -1029,6 +1040,19 @@ strong{
         line-height: 25px;
         margin-bottom: 40px;
     }
+    .buy{
+        width: 330px;
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 100px;
+    }
+    .buy img{
+        width: 120px;
+        height: 48px;
+    }
     .content a{
         font-size: 13px;
         font-weight: 700;
@@ -1046,6 +1070,7 @@ strong{
     }
     .text{
         width: 400px;
+        margin-top: 200px;
     }
     .about-us{
         width: 320px;
